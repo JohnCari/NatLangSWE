@@ -82,6 +82,11 @@ natlangdev/
 
 - **[Review & Orchestration Mode](vscode/settings.json)** — VS Code settings optimized for reviewing AI-generated code (disables autocomplete, strips UI bloat, enhances diff view)
 
+### Recommended Extensions
+
+- **[Claude Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code)** — Run Claude Code directly in VS Code
+- **[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)** — Inline error/warning highlighting for quick review
+
 ## Contributing
 
 Contributions welcome! Feel free to submit guidelines for additional languages or improvements to existing ones.
