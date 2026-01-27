@@ -28,7 +28,9 @@ natlangdev/
 │   └── typescript/ # TypeScript guidelines
 ├── frameworks/
 │   ├── nextjs/     # NextJS (TSX) guidelines
-│   └── axum/       # Rust Axum guidelines
+│   ├── axum/       # Rust Axum guidelines
+│   ├── fastapi/    # FastAPI (Python) guidelines
+│   └── pytorch/    # PyTorch (Python) guidelines
 ├── patterns/       # Cross-language design patterns
 └── vscode/         # VS Code configurations
 ```
@@ -54,6 +56,14 @@ natlangdev/
 *Coming soon*
 
 ### Axum (Rust)
+
+*Coming soon*
+
+### FastAPI (Python)
+
+*Coming soon*
+
+### PyTorch (Python)
 
 *Coming soon*
 
