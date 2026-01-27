@@ -48,7 +48,7 @@ natlangdev/
 
 ### TypeScript
 
-*Coming soon*
+- **[Power of 10 Rules for TypeScript](languages/typescript/POWER_OF_10.md)** — NASA JPL's safety-critical coding guidelines adapted for TypeScript
 
 ## Frameworks
 
