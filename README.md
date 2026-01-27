@@ -80,7 +80,7 @@ natlangdev/
 
 ## VS Code
 
-- **[Review & Orchestration Mode](vscode/settings.json)** — VS Code settings optimized for reviewing AI-generated code (disables autocomplete, strips UI bloat, enhances diff view)
+- **[Review & Orchestration Mode](vscode/configuration/settings.json)** — VS Code settings optimized for reviewing AI-generated code (disables autocomplete, strips UI bloat, enhances diff view)
 
 ### Recommended Extensions
 
