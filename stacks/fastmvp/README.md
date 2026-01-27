@@ -12,6 +12,8 @@ FastMVP is a curated tech stack optimized for building **Minimum Viable Products
 |-------|------------|---------|
 | **Hosting** | [Vercel](https://vercel.com) | Zero-config deployment, edge functions, preview URLs |
 | **Frontend** | [NextJS (TSX)](https://nextjs.org) | App Router, Server Components, API routes |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com) | Utility-first CSS, minimal bundle size |
+| **UI Components** | [Shadcn UI](https://ui.shadcn.com) | Copy-paste components you own, accessible defaults |
 | **Backend** | [Convex](https://convex.dev) or [Supabase](https://supabase.com) | Real-time database, serverless functions |
 | **Auth** | [Clerk](https://clerk.com) | Drop-in authentication, user management |
 | **Payments** | [Stripe Checkout](https://stripe.com/checkout) | Hosted payment pages, subscriptions |
@@ -68,17 +70,20 @@ FastMVP is a curated tech stack optimized for building **Minimum Viable Products
 ## Quick Start Checklist
 
 1. **Create NextJS app**: `npx create-next-app@latest --typescript`
-2. **Deploy to Vercel**: Connect GitHub repo
-3. **Add Clerk**: `npm install @clerk/nextjs` + wrap app in `<ClerkProvider>`
-4. **Add backend**:
+2. **Add Shadcn UI**: `npx shadcn@latest init` (includes Tailwind setup)
+3. **Deploy to Vercel**: Connect GitHub repo
+4. **Add Clerk**: `npm install @clerk/nextjs` + wrap app in `<ClerkProvider>`
+5. **Add backend**:
    - Convex: `npx convex dev`
    - Supabase: Create project, install `@supabase/supabase-js`
-5. **Add Stripe**: Create Checkout Session from API route
-6. **Ship it**
+6. **Add Stripe**: Create Checkout Session from API route
+7. **Ship it**
 
 ## Resources
 
 - [NextJS Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Shadcn UI Documentation](https://ui.shadcn.com/docs)
 - [Vercel Documentation](https://vercel.com/docs)
 - [Convex Documentation](https://docs.convex.dev)
 - [Supabase Documentation](https://supabase.com/docs)
