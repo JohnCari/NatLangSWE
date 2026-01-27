@@ -33,6 +33,7 @@ natlangdev/
 │   └── pytorch/    # PyTorch (Python) guidelines
 ├── patterns/       # Cross-language design patterns
 ├── workflows/      # Development workflows
+├── stacks/         # Recommended tech stacks
 └── vscode/         # VS Code configurations
 ```
 
@@ -77,6 +78,10 @@ natlangdev/
 ## Workflows
 
 - **[Lisa Flow](workflows/LISA_FLOW.md)** — Structured AI development with automatic TDD and self-healing tests
+
+## Stacks
+
+- **[FastMVP](stacks/fastmvp/README.md)** — Vercel + NextJS + Convex/Supabase + Clerk + Stripe for rapid MVP development
 
 ## VS Code
 
