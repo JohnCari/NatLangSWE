@@ -54,7 +54,7 @@ natlangdev/
 
 ### NextJS (TSX)
 
-*Coming soon*
+- **[Power of 10 Rules for NextJS](frameworks/nextjs/POWER_OF_10.md)** — NASA JPL's safety-critical coding guidelines adapted for NextJS
 
 ### Axum (Rust)
 
