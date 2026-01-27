@@ -69,6 +69,7 @@ natlangdev/
 
 ## Patterns
 
+- **[Feature-Sliced Hexagonal Architecture](patterns/FEATURE_SLICED_HEXAGONAL.md)** — The definitive pattern for parallel AI agent swarm development in a monorepo
 - **[Minimal Dependencies](patterns/MINIMAL_DEPENDENCIES.md)** — Philosophy on when to use vs. avoid libraries
 
 ## VS Code
