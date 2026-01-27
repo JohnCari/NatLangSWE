@@ -17,6 +17,9 @@ FastMVP is a curated tech stack optimized for building **Minimum Viable Products
 | **Backend** | [Convex](https://convex.dev) or [Supabase](https://supabase.com) | Real-time database, serverless functions |
 | **Auth** | [Clerk](https://clerk.com) | Drop-in authentication, user management |
 | **Payments** | [Stripe Checkout](https://stripe.com/checkout) | Hosted payment pages, subscriptions |
+| **Tooling** | [Bun](https://bun.sh) + [Turborepo](https://turborepo.dev) | Fast runtime, monorepo orchestration |
+| **Bundler** | [Turbopack](https://turbopack.dev) | Default in Next.js, incremental builds |
+| **Linting** | [Biome](https://biomejs.dev) | Linter + formatter (faster than ESLint) |
 
 ## Why This Stack?
 
@@ -38,6 +41,21 @@ FastMVP is a curated tech stack optimized for building **Minimum Viable Products
 - Supabase: Free tier with 500MB database
 - Clerk: 10,000 MAUs free
 - Stripe: Pay only on transactions
+
+## Server Components
+
+**Default to React Server Components (RSC).** Only use Client Components when absolutely necessary.
+
+| Use RSC (Default) | Use Client (`'use client'`) |
+|-------------------|----------------------------|
+| Data fetching | Event handlers (onClick) |
+| Static content | useState, useEffect |
+| Database queries | Browser APIs (localStorage) |
+| Backend logic | Real-time updates |
+
+**Keep client boundaries high in the tree** — push providers deep, keep interactive components as leaves.
+
+See **[NextJS Preferences](../../frameworks/nextjs/PREFERENCES.md)** for detailed RSC guidelines and monorepo structure.
 
 ## Convex vs Supabase
 
@@ -69,15 +87,16 @@ FastMVP is a curated tech stack optimized for building **Minimum Viable Products
 
 ## Quick Start Checklist
 
-1. **Create NextJS app**: `npx create-next-app@latest --typescript`
-2. **Add Shadcn UI**: `npx shadcn@latest init` (includes Tailwind setup)
-3. **Deploy to Vercel**: Connect GitHub repo
-4. **Add Clerk**: `npm install @clerk/nextjs` + wrap app in `<ClerkProvider>`
-5. **Add backend**:
-   - Convex: `npx convex dev`
-   - Supabase: Create project, install `@supabase/supabase-js`
-6. **Add Stripe**: Create Checkout Session from API route
-7. **Ship it**
+1. **Create monorepo**: `bunx create-turbo@latest -m bun`
+2. **Add Shadcn UI**: `bunx shadcn@latest init` (includes Tailwind setup)
+3. **Add Biome**: `bun add -D @biomejs/biome && bunx biome init`
+4. **Deploy to Vercel**: Connect GitHub repo
+5. **Add Clerk**: `bun add @clerk/nextjs` + wrap app in `<ClerkProvider>`
+6. **Add backend**:
+   - Convex: `bunx convex dev`
+   - Supabase: Create project, `bun add @supabase/supabase-js`
+7. **Add Stripe**: Create Checkout Session from API route
+8. **Ship it**
 
 ## Resources
 
@@ -89,3 +108,7 @@ FastMVP is a curated tech stack optimized for building **Minimum Viable Products
 - [Supabase Documentation](https://supabase.com/docs)
 - [Clerk Documentation](https://clerk.com/docs)
 - [Stripe Checkout Documentation](https://stripe.com/docs/checkout)
+- [Bun Documentation](https://bun.sh/docs)
+- [Turborepo Documentation](https://turborepo.dev/docs)
+- [Biome Documentation](https://biomejs.dev/guides/getting-started/)
+- [NextJS Preferences (NatLangDev)](../frameworks/nextjs/PREFERENCES.md)
