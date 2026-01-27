@@ -56,6 +56,7 @@ natlangdev/
 ### NextJS (TSX)
 
 - **[Power of 10 Rules for NextJS](frameworks/nextjs/POWER_OF_10.md)** — NASA JPL's safety-critical coding guidelines adapted for NextJS
+- **[Monorepo Preferences](frameworks/nextjs/PREFERENCES.md)** — Bun + Turborepo + Turbopack + RSC guidelines
 
 ### Axum (Rust)
 
