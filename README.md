@@ -40,7 +40,7 @@ natlangdev/
 
 ### Rust
 
-- **[Power of 10 Rules for Rust](languages/rust/POWER_OF_10.md)** — NASA JPL's safety-critical coding guidelines adapted for Rust and AI-assisted development
+- **[Power of 10 Rules for Rust](languages/rust/POWER_OF_10.md)** — NASA JPL's safety-critical coding guidelines adapted for Rust
 
 ### Python
 
