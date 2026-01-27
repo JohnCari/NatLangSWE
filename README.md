@@ -58,7 +58,7 @@ natlangdev/
 
 ### Axum (Rust)
 
-*Coming soon*
+- **[Power of 10 Rules for Axum](frameworks/axum/POWER_OF_10.md)** — NASA JPL's safety-critical coding guidelines adapted for Axum
 
 ### FastAPI (Python)
 
