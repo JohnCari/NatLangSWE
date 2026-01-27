@@ -22,7 +22,10 @@ Instead of vague prompts like *"write me a web server"*, NatLangDev provides exp
 
 ```
 natlangdev/
-├── languages/      # Language-specific guidelines
+├── languages/
+│   ├── rust/       # Rust guidelines
+│   ├── python/     # Python guidelines
+│   └── typescript/ # TypeScript guidelines
 ├── frameworks/     # Framework-specific guidelines
 ├── patterns/       # Cross-language design patterns
 └── vscode/         # VS Code configurations
@@ -38,7 +41,7 @@ natlangdev/
 
 *Coming soon*
 
-### TypeScript/JavaScript
+### TypeScript
 
 *Coming soon*
 
