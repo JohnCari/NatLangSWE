@@ -26,7 +26,9 @@ natlangdev/
 │   ├── rust/       # Rust guidelines
 │   ├── python/     # Python guidelines
 │   └── typescript/ # TypeScript guidelines
-├── frameworks/     # Framework-specific guidelines
+├── frameworks/
+│   ├── nextjs/     # NextJS (TSX) guidelines
+│   └── axum/       # Rust Axum guidelines
 ├── patterns/       # Cross-language design patterns
 └── vscode/         # VS Code configurations
 ```
@@ -47,7 +49,13 @@ natlangdev/
 
 ## Frameworks
 
-*Coming soon — React, Django, Axum, and more*
+### NextJS (TSX)
+
+*Coming soon*
+
+### Axum (Rust)
+
+*Coming soon*
 
 ## Patterns
 
