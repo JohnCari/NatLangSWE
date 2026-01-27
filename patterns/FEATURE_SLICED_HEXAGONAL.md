@@ -41,15 +41,14 @@ src/
 ## Workflow
 
 ```
-1. IDEATION     → Describe idea to Claude
-2. SKELETON     → Create folders + define ALL shared types in common/
-3. BREAKDOWN    → Split idea into features, assign to terminals
+1. IDEATION     → You describe idea to Claude
+2. ANALYSIS     → Claude checks: does skeleton exist?
+                  - NO  → Claude creates skeleton FIRST (folders + common/ types)
+                  - YES → Claude uses existing structure
+3. BREAKDOWN    → Claude splits idea into features, assigns to terminals
 4. PARALLEL     → Each terminal implements its feature (swarm inside)
 5. INTEGRATION  → One terminal wires up app/ routes, merges branches
 ```
-
-**If starting from scratch:** Claude creates skeleton first (top priority).
-**If skeleton exists:** Claude breaks idea into features that fit existing structure.
 
 ---
 
