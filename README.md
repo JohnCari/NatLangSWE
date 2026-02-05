@@ -52,6 +52,7 @@ NatLangDev/
 │   ├── nextjs/     # NextJS (TSX) guidelines
 │   ├── react/      # React (TSX) guidelines
 │   ├── axum/       # Rust Axum guidelines
+│   ├── electron/   # Electron (TypeScript) guidelines
 │   ├── fastapi/    # FastAPI (Python) guidelines
 │   └── pytorch/    # PyTorch (Python) guidelines
 ├── patterns/       # Cross-language design patterns
@@ -78,6 +79,7 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 |-----------|------------|
 | React | [POWER_OF_10.md](frameworks/react/POWER_OF_10.md) |
 | NextJS | [POWER_OF_10.md](frameworks/nextjs/POWER_OF_10.md) ・ [PREFERENCES.md](frameworks/nextjs/PREFERENCES.md) |
+| Electron | [POWER_OF_10.md](frameworks/electron/POWER_OF_10.md) |
 | Axum | [POWER_OF_10.md](frameworks/axum/POWER_OF_10.md) |
 | FastAPI | [POWER_OF_10.md](frameworks/fastapi/POWER_OF_10.md) |
 | PyTorch | [POWER_OF_10.md](frameworks/pytorch/POWER_OF_10.md) |
