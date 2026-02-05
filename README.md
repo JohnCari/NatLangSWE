@@ -58,7 +58,6 @@ NatLangSWE/
 ├── patterns/       # Cross-language design patterns
 ├── workflows/      # Development workflows
 ├── stacks/         # Recommended tech stacks
-└── vscode/         # VS Code configurations
 ```
 
 ---
@@ -97,16 +96,6 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 ### Stacks
 
 - [FastMVP](stacks/fastmvp/README.md) — Vercel + NextJS + Convex/Supabase + Clerk + Stripe ・ [Integration Preferences](stacks/fastmvp/INTEGRATION_PREFERENCES.md)
-
----
-
-## Tooling
-
-### VS Code
-
-- [Review & Orchestration Mode](vscode/configuration/settings.json) — Settings optimized for reviewing AI-generated code
-
-**Recommended Extensions:** [Claude Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) ・ [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ---
 
