@@ -105,7 +105,7 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 
 ### Stacks
 
-- [FastMVP](stacks/fastmvp/README.md) — Vercel + NextJS + Convex/Supabase + Clerk + Stripe ・ [Integration Preferences](stacks/fastmvp/INTEGRATION_PREFERENCES.md)
+- [FastMVP](stacks/fastmvp/README.md) — Vercel + NextJS + Convex/Supabase + Clerk + Stripe
 
 ---
 
