@@ -55,6 +55,10 @@ NatLangSWE/
 │   ├── electron/   # Electron (TypeScript) guidelines
 │   ├── fastapi/    # FastAPI (Python) guidelines
 │   └── pytorch/    # PyTorch (Python) guidelines
+├── toolchains/
+│   ├── uv/             # UV (Python toolchain) guidelines
+│   ├── bun/            # Bun (TypeScript toolchain) guidelines
+│   └── cargo-rustup/   # Cargo + Rustup (Rust toolchain) guidelines
 ├── patterns/       # Cross-language design patterns
 ├── workflows/      # Development workflows
 ├── stacks/         # Recommended tech stacks
@@ -82,6 +86,12 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 | Axum | [POWER_OF_10.md](frameworks/axum/POWER_OF_10.md) |
 | FastAPI | [POWER_OF_10.md](frameworks/fastapi/POWER_OF_10.md) |
 | PyTorch | [POWER_OF_10.md](frameworks/pytorch/POWER_OF_10.md) |
+
+| Toolchain | Guidelines |
+|-----------|------------|
+| UV | [POWER_OF_10.md](toolchains/uv/POWER_OF_10.md) |
+| Bun | [POWER_OF_10.md](toolchains/bun/POWER_OF_10.md) |
+| Cargo + Rustup | [POWER_OF_10.md](toolchains/cargo-rustup/POWER_OF_10.md) |
 
 ### Patterns
 
