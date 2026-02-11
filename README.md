@@ -50,6 +50,7 @@ NatLangSWE/
 │   └── typescript/ # TypeScript guidelines
 ├── frameworks/
 │   ├── nextjs/     # NextJS (TSX) guidelines
+│   ├── sveltekit/  # SvelteKit (TypeScript) guidelines
 │   ├── react/      # React (TSX) guidelines
 │   ├── axum/       # Rust Axum guidelines
 │   ├── electron/   # Electron (TypeScript) guidelines
@@ -82,6 +83,7 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 |-----------|------------|
 | React | [POWER_OF_10.md](frameworks/react/POWER_OF_10.md) |
 | NextJS | [POWER_OF_10.md](frameworks/nextjs/POWER_OF_10.md) ・ [PREFERENCES.md](frameworks/nextjs/PREFERENCES.md) |
+| SvelteKit | [POWER_OF_10.md](frameworks/sveltekit/POWER_OF_10.md) ・ [PREFERENCES.md](frameworks/sveltekit/PREFERENCES.md) |
 | Electron | [POWER_OF_10.md](frameworks/electron/POWER_OF_10.md) |
 | Axum | [POWER_OF_10.md](frameworks/axum/POWER_OF_10.md) |
 | FastAPI | [POWER_OF_10.md](frameworks/fastapi/POWER_OF_10.md) |
@@ -106,6 +108,7 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 ### Stacks
 
 - [FastMVP](stacks/fastmvp/README.md) — Vercel + NextJS + Convex/Supabase + Clerk + Stripe
+- [SvelteShip](stacks/svelteship/README.md) — Vercel + SvelteKit + Supabase + Stripe
 
 ---
 
