@@ -113,7 +113,7 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 
 ### Workflows
 
-- [Lisa Flow](workflows/LISA_FLOW.md) — Structured AI development with TDD
+- [Maestro-Framework](https://github.com/JohnCari/maestro-framework) — Structured AI development with TDD
 
 ### Stacks
 
