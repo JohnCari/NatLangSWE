@@ -49,13 +49,17 @@ NatLangSWE/
 │   ├── python/     # Python guidelines
 │   └── typescript/ # TypeScript guidelines
 ├── frameworks/
-│   ├── nextjs/     # NextJS (TSX) guidelines
-│   ├── sveltekit/  # SvelteKit (TypeScript) guidelines
-│   ├── react/      # React (TSX) guidelines
-│   ├── axum/       # Rust Axum guidelines
-│   ├── electron/   # Electron (TypeScript) guidelines
-│   ├── fastapi/    # FastAPI (Python) guidelines
-│   └── pytorch/    # PyTorch (Python) guidelines
+│   ├── nextjs/         # NextJS (TSX) guidelines
+│   ├── sveltekit/      # SvelteKit (TypeScript) guidelines
+│   ├── svelte5-runes/  # Svelte 5 Runes (reactivity) guidelines
+│   ├── react/          # React (TSX) guidelines
+│   ├── tailwindcss/    # TailwindCSS guidelines
+│   ├── axum/           # Rust Axum guidelines
+│   ├── electron/       # Electron (TypeScript) guidelines
+│   ├── fastapi/        # FastAPI (Python) guidelines
+│   └── pytorch/        # PyTorch (Python) guidelines
+├── databases/
+│   └── postgresql/     # PostgreSQL guidelines
 ├── toolchains/
 │   ├── uv/             # UV (Python toolchain) guidelines
 │   ├── bun/            # Bun (TypeScript toolchain) guidelines
@@ -84,10 +88,16 @@ NASA JPL's safety-critical coding rules adapted for modern development.
 | React | [POWER_OF_10.md](frameworks/react/POWER_OF_10.md) |
 | NextJS | [POWER_OF_10.md](frameworks/nextjs/POWER_OF_10.md) ・ [PREFERENCES.md](frameworks/nextjs/PREFERENCES.md) |
 | SvelteKit | [POWER_OF_10.md](frameworks/sveltekit/POWER_OF_10.md) ・ [PREFERENCES.md](frameworks/sveltekit/PREFERENCES.md) |
+| Svelte 5 Runes | [POWER_OF_10.md](frameworks/svelte5-runes/POWER_OF_10.md) |
+| TailwindCSS | [POWER_OF_10.md](frameworks/tailwindcss/POWER_OF_10.md) |
 | Electron | [POWER_OF_10.md](frameworks/electron/POWER_OF_10.md) |
 | Axum | [POWER_OF_10.md](frameworks/axum/POWER_OF_10.md) |
 | FastAPI | [POWER_OF_10.md](frameworks/fastapi/POWER_OF_10.md) |
 | PyTorch | [POWER_OF_10.md](frameworks/pytorch/POWER_OF_10.md) |
+
+| Database | Guidelines |
+|----------|------------|
+| PostgreSQL | [POWER_OF_10.md](databases/postgresql/POWER_OF_10.md) |
 
 | Toolchain | Guidelines |
 |-----------|------------|
